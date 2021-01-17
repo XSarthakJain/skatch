@@ -1,0 +1,75 @@
+:root{
+    --skatch_red:#DC3545;
+    --skatch_green:#28A745;
+    --skatch_yellow:#FFC107;
+    --skatch_Blue:#007BFF;
+    --skatch_white:#ffffff;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+.BadgeButton{
+    padding:8px 12px;
+    border-radius: 4px;
+    outline:none;
+    cursor:pointer;
+}
+
+.BadgeSkatchRedBg{
+    border:2px solid var(--skatch_red);
+    background-color: var(--skatch_red);
+    color:var(--skatch_white);
+}
+
+.BadgeSkatchGreenBg{
+    border:2px solid var(--skatch_green);
+    background-color: var(--skatch_green);
+    color:var(--skatch_white);
+}
+.BadgeYellowBg{
+    border:2px solid var(--skatch_yellow);
+    background-color: var(--skatch_yellow);
+    color:var(--skatch_white);
+}
+.BadgeSkatchBlueBg{
+    border:2px solid var(--skatch_Blue);
+    background-color: var(--skatch_Blue);
+    color:var(--skatch_white);
+}
+
+.BadgeSkatchRedValue{
+    color : var(--skatch_red);
+    background:var(--skatch_white);
+    padding:2px 6px;
+    border:1px solid var(--skatch_white);
+    border-radius:50%;
+}
+
+.BadgeSkatchGreenValue{
+    color : var(--skatch_green);
+    background:var(--skatch_white);
+    padding:2px 6px;
+    border:1px solid var(--skatch_white);
+    border-radius:50%;
+}
+
+.BadgeSkatchYellowValue{
+    color : var(--skatch_yellow);
+    background:var(--skatch_white);
+    padding:2px 6px;
+    border:1px solid var(--skatch_white);
+    border-radius:50%;
+}
+
+.BadgeSkatchBlueValue{
+    color : var(--skatch_Blue);
+    background:var(--skatch_white);
+    padding:2px 6px;
+    border:1px solid var(--skatch_white);
+    border-radius:50%;
+}

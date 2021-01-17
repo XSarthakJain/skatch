@@ -1,0 +1,38 @@
+:root{
+    --skatch_gray : gray;
+    --skatch_black : black;
+    --skatch_SnippetsBg:#F8F9FA;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+/* Temp */
+.outerWrapper{
+	margin:5%;
+	width: 90%;
+    
+}
+/* Temp */
+
+.componentTitle{
+    font-size: xx-large;
+    font-weight:bolder;
+    color:var(--skatch_black);
+}
+
+.componentDescription{
+    font-size:large;
+}
+.componentSubTitle{
+    font-size: x-large;
+}
+.codeSnippets{
+    background-color: var(--skatch_SnippetsBg);
+    padding:2%;
+    display:inline-block;
+    border-radius: 2px;
+}

@@ -1,0 +1,10 @@
+:root{
+    --skatch_gray : gray;
+    --skatch_black : black;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
