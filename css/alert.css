@@ -1,0 +1,72 @@
+:root{
+    --skatch_red:#721C24;
+    --skatch_lightred:#F8D7DA;
+    --skatch_green:#28A745;
+    --skatch_lightgreen:#D4EDDA;
+    --skatch_yellow:#FFC107;
+    --skatch_lightyellow:#FFF3CD;
+    --skatch_blue:#007BFF;
+    --skatch_lightblue:#CCE5FF;
+    --skatch_white:#ffffff;
+    --skatch_gray:#6C757D;
+    --skatch_lightgray:#D6D8D9;
+}
+
+.SkatchAlert{
+    padding:2%;
+    width:100%;
+    border-radius: 4px;
+    display:flex;
+}
+
+.SkatchRed{
+    background-color: var(--skatch_lightred);
+    color:var(--skatch_red);
+    border-left:5px solid var(--skatch_red);
+}
+
+.SkatchGreen{
+    background-color: var(--skatch_lightgreen);
+    color:var(--skatch_green);
+    border-left:5px solid var(--skatch_green);
+}
+
+.SkatchBlue{
+    background-color: var(--skatch_lightblue);
+    color:var(--skatch_blue);
+    border-left:5px solid var(--skatch_blue);
+}
+
+.SkatchYellow{
+    background-color: var(--skatch_lightyellow);
+    color:var(--skatch_yellow);
+    border-left:5px solid var(--skatch_yellow);
+}
+
+.SkatchGray{
+    background-color: var(--skatch_lightgray);
+    color:var(--skatch_gray);
+    border-left:5px solid var(--skatch_gray);
+}
+
+.AlertIcon{
+    width:10%;
+    padding:3px;
+}
+.AlertContent{
+    width:80%;
+    text-align: left;
+}
+.AlertTitle{
+    font-weight: bolder;
+}
+.AlertDescription{
+    padding-top:3px;
+    font-size: small;
+}
+.AlertClose{
+    width:10%;
+    cursor:pointer;
+    text-align: right;
+    padding:3px;
+}

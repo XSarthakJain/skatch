@@ -35,4 +35,5 @@
     padding:2%;
     display:inline-block;
     border-radius: 2px;
+    overflow-x: auto;
 }
