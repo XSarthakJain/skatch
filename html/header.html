@@ -80,6 +80,48 @@
                 </nav>
             </xmp>
         </div>
+
+        <div>
+            <p class="componentSubTitle">Left Side appear Header</p><br>
+            <img src="../images/LightleftSideHeader.png"><br><br>
+            <xmp class="codeSnippets">
+            <header class="SkatchLight leftHeader">
+                <label id="LeftHeaderMenuicon">
+                    <i class="material-icons">menu</i>
+                </label>
+                <label class="Headerlogo">Skatch</label>
+            </header>
+                <div class="leftHeaderMenuOptions">
+                    <ul>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">AboutUs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </xmp>
+            <br>
+            <img src="../images/DarkleftSideHeader.png"><br><br>
+            <xmp class="codeSnippets">
+            <header class="SkatchDark leftHeader">
+                <label id="LeftHeaderMenuicon">
+                    <i class="material-icons">menu</i>
+                </label>
+                <label class="Headerlogo">Skatch</label>
+            </header>
+                <div class="leftHeaderMenuOptions">
+                    <ul>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">AboutUs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </xmp>
+
+        </div>
     </section>
 </body>
 <script>
@@ -87,6 +129,14 @@
     var menuItems = document.querySelector(".menuItems");
     menuIcon.addEventListener("click",function(e){
         menuItems.classList.toggle('HeaderMenushow');
+    });
+
+
+    // Second Header
+    var leftHeaderMenu = document.querySelector("#LeftHeaderMenuicon");
+    var SlidindMenu = document.querySelector(".leftHeaderMenuOptions");
+    leftHeaderMenu.addEventListener("click",function(e){
+        SlidindMenu.classList.toggle("leftSlidingMenuShow");
     });
 </script>
 </html>

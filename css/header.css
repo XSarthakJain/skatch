@@ -132,3 +132,98 @@ nav #HeaderMenuicon{
         left:0;
     }
 }
+
+/* Left Header Appear */
+.leftHeader{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+#LeftHeaderMenuicon i{
+    padding-left: 26px;
+    padding-right:0;
+    cursor: pointer;
+}
+
+#LeftHeaderMenuicon + label{
+    padding-left:35px;
+}
+
+.SkatchDark + .leftHeaderMenuOptions{
+    background-color: var(--skatch_headerdark);
+}
+
+.SkatchDark + .leftHeaderMenuOptions ul li{
+    border-bottom: 1px solid var(--skatch_gray);
+}
+
+.SkatchDark + .leftHeaderMenuOptions ul li a{
+    color: var(--skatch_white);
+}
+
+.SkatchDark + .leftHeaderMenuOptions ul li:first-child{
+    border-top:1px solid var(--skatch_white);
+}
+
+.SkatchDark + .leftHeaderMenuOptions ul li:hover,.SkatchDark + .leftHeaderMenuOptions ul li a:hover{
+    background-color: var(--skatch_lightgray);
+    color:var(--skatch_headerdark);
+}
+
+/* Light Color */
+.SkatchLight + .leftHeaderMenuOptions{
+    background-color: var(--skatch_lightgray);
+}
+
+.SkatchLight + .leftHeaderMenuOptions ul li{
+    border-bottom: 1px solid var(--skatch_headerdark);
+}
+
+.SkatchLight + .leftHeaderMenuOptions ul li a{
+    color: var(--skatch_headerdark);
+}
+
+.SkatchLight + .leftHeaderMenuOptions ul li:first-child{
+    border-top:1px solid var(--skatch_headerdark);
+}
+
+.SkatchLight + .leftHeaderMenuOptions ul li:hover,.SkatchLight + .leftHeaderMenuOptions ul li a:hover{
+    background-color: var(--skatch_headerdark);
+    color:var(--skatch_white);
+}
+
+.leftHeaderMenuOptions{
+    position:fixed;
+    top:80px;
+    left:0;
+    height:100vh;
+    width:0px;
+    z-index: 2;
+    transition: width 1.5s;
+    transition-timing-function: ease-in-out;
+    overflow-x: hidden;
+    
+}
+
+.leftHeaderMenuOptions ul li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    padding:12px 16px;
+    overflow-x: hidden;
+    text-transform:capitalize;
+    text-align: center;
+}
+
+.leftHeaderMenuOptions ul li a{
+    text-decoration: none;
+    display: block;
+}
+
+.leftSlidingMenuShow{
+    width:250px; 
+}
+
+
