@@ -32,6 +32,15 @@ nav{
     color:var(--skatch_white);
 }
 
+.SkatchLight{
+    background: var(--skatch_lightgray);
+    color: var(--skatch_black);
+}
+
+.SkatchLight a{
+    color: var(--skatch_black) !important;
+}
+
 label.Headerlogo{
     font-size: 35px;
     font-weight: bold;
