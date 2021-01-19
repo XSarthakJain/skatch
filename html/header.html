@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skatch Alert</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="StyleSheet" href="../css/commonpage.css">
+    <link rel="StyleSheet" href="../css/header.css">
+</head>
+<body>
+
+    <section class="outerWrapper">
+        <h1 class="componentTitle">Header</h1>
+        <p class="componentDescription">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
+        <br>
+        <div>
+            <p class="componentSubTitle">Header</p><br>
+            <!--Start Header -->
+            <nav class="SkatchDark">
+                <label class="Headerlogo">Skatch</label>
+                <ul class="menuItems">
+                    <li><a href="#" class="HeaderMenuactive">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+                <label id="HeaderMenuicon">
+                <i class="material-icons">menu</i>
+                </label>
+            </nav>
+            <br><br>
+            <!-- End Header -->
+            <xmp class="codeSnippets">
+                <nav>
+                    <label class="Headerlogo">Skatch</label>
+                    <ul class="menuItems">
+                        <li><a href="#" class="HeaderMenuactive">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                    <label id="HeaderMenuicon">
+                    <i class="material-icons">menu</i>
+                    </label>
+                </nav>
+            </xmp>
+        </div>
+    </section>
+</body>
+<script>
+    var menuIcon = document.querySelector("#HeaderMenuicon");
+    var menuItems = document.querySelector(".menuItems");
+    menuIcon.addEventListener("click",function(e){
+        menuItems.classList.toggle('HeaderMenushow');
+    });
+</script>
+</html>
