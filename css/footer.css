@@ -47,7 +47,6 @@
     cursor: pointer;
     padding:8px;
     font-size: larger;
-    place-content: center;
 }
 
 .SkatchFooterDark i{
@@ -65,3 +64,110 @@
     background-color: var(--skatch_black);
     color: var(--skatch_white);
 }
+
+
+
+/* Second Footer */
+.SkatchMenuBasedFooter{
+    width:100%;
+    padding:2%;
+    background-color: #24262b;
+    color: #bbbbbb;
+        
+}
+
+.SkatchMenuBasedFooter:before,
+.SkatchMenuBasedFooter:after {
+    content: " "; 
+    display: table; 
+}
+
+.SkatchMenuBasedFooter:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.SkatchMenuBasedFooter {
+    *zoom: 1;
+}
+
+.InnerSkatchMenuBasedFooter{
+    padding:2%;
+}
+
+.SkatchMenuBasedFooter .InnerSkatchMenuBasedFooter div{
+    float: left;
+    width:25%;
+}
+
+.SkatchMenuBasedFooter .InnerSkatchMenuBasedFooter div :first-child{
+    padding-left:25%;
+}
+
+.SkatchMenuBasedFooterTitle{
+    color: var(--skatch_white);
+    font-weight: bold;
+    margin-bottom:30px;
+    text-transform: capitalize;
+    position:relative;
+    margin-top:30px;
+}
+
+.SkatchMenuBasedFooterTitle::before{
+    content:'';
+    position: absolute;
+    bottom: -10px;
+    background-color: #e91e61;
+    height: 3px;
+    box-sizing: border-box;
+    width:50px;
+}
+
+.SkatchMenuBasedFooterTitle ~ ul li{
+    list-style: none !important;
+    padding-top:6px;
+}
+
+.SkatchMenuBasedFooterTitle ~ ul li a{
+    text-decoration: none;
+    color: #bbbbbb;
+    
+}
+
+.SkatchMenuBasedFooterTitle ~ ul li :hover{
+    color:var(--skatch_white);
+}
+
+ .SkatchMenuBasedFooterTitle ~ div a i.fa{
+    margin: 2px 0px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--skatch_white);
+    padding:8px !important;
+    background-color: rgba(255,255,255,0.2);
+    border:1px solid var(--skatch_gray);
+    border-radius: 50%;
+    }
+.SkatchMenuBasedFooterTitle ~ div a i.fa:hover{
+    border:1px solid var(--skatch_white);
+    background-color: var(--skatch_white);
+    color: var(--skatch_gray);
+}
+
+@media (max-width:821px){
+    .SkatchMenuBasedFooter .InnerSkatchMenuBasedFooter div{
+        width: 50%;
+    }   
+}
+
+@media (max-width:501px){
+    .SkatchMenuBasedFooter .InnerSkatchMenuBasedFooter div{
+        width: 100%;
+    }   
+}
+
+.SkatchMenuBasedFooterSocialMediaIcons{
+    padding-left:25%;
+} 
