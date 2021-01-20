@@ -1,0 +1,67 @@
+:root{
+    --skatch_red:#DC3545;
+    --skatch_green:#28A745;
+    --skatch_yellow:#FFC107;
+    --skatch_blue:#007BFF;
+    --skatch_white:#ffffff;
+    --skatch_gray:#6C757D;
+    --skatch_headerdark:#343A40;
+    --skatch_lightgray:#D6D8D9;
+    --skatch_black : #000000;
+}
+
+.SkatchFooterDark{
+    padding:2% 0px;
+    width:100%;
+    background-color: var(--skatch_headerdark);
+    color:var(--skatch_white);
+}
+
+.SkatchFooterLight{
+    padding:2% 0px;
+    width:100%;
+    background-color: var(--skatch_lightgray);
+    color:var(--skatch_black);
+}
+
+.footerTitle{
+    font-size: x-large;
+}
+
+.footerDescription{
+    padding:2% 10%;
+    opacity:0.8;
+}
+
+.footerTitle,.footerDescription{
+    text-align: center;
+}
+
+.SkatchFooterLight , .SkatchFooterDark{
+    width:100%;
+    text-align: center;
+}
+
+.SkatchFooterLight i,.SkatchFooterDark i{   
+    text-align: center;
+    cursor: pointer;
+    padding:8px;
+    font-size: larger;
+    place-content: center;
+}
+
+.SkatchFooterDark i{
+    color: var(--skatch_white);
+}
+
+.SkatchFooterLight i{
+    color: var(--skatch_black);
+}
+
+.footerCopyrightSection{
+    width:100%;
+    text-align: center;
+    padding:2% 0px;
+    background-color: var(--skatch_black);
+    color: var(--skatch_white);
+}
