@@ -1,0 +1,175 @@
+:root{
+    --skatch_red:#DC3545;
+    --skatch_green:#28A745;
+    --skatch_yellow:#FFC107;
+    --skatch_blue:#007BFF;
+    --skatch_white:#ffffff;
+    --skatch_gray:#6C757D;
+    --skatch_lightred:#F8D7DA;
+    --caribbean_green:#2EE59D;
+    --caribbean_lightgreen:rgba(46, 229, 157, 0.4);
+    --skatch_lightblue:#CCE5FF;
+    --skatch_lightgray:#D6D8D9;
+}
+
+.SkatchBtn{
+    width: 140px;
+    height: 45px;
+    font-size: medium;
+    outline: none;
+    cursor: pointer;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 2s;
+    display: inline-block;
+    margin:4px;
+}
+
+.SkatchRoundBtn{
+    border-radius: 5px;
+}
+
+.SkatchElipseBtn{
+    border-radius: 25px;
+}
+
+.SkatchButtonRed{
+    background-color: var(--skatch_red);
+    color: var(--skatch_white);
+    border : 1px solid var(--skatch_red);
+}
+
+.SkatchButtonBlue{
+    background-color: var(--skatch_blue);
+    color: var(--skatch_white);
+    border : 1px solid var(--skatch_blue);
+}
+
+.SkatchButtonGreen{
+    background-color: var(--skatch_green);
+    color: var(--skatch_white);
+    border : 1px solid var(--skatch_green);
+}
+
+.SkatchButtonGray{
+    background-color: var(--skatch_gray);
+    color: var(--skatch_white);
+    border : 1px solid var(--skatch_gray);
+}
+
+.SkatchButtonRed:hover{
+    box-shadow: 0 0 10px var(--skatch_red);
+}
+
+.SkatchButtonBlue:hover{
+    box-shadow: 0 0 10px var(--skatch_blue);
+}
+
+.SkatchButtonGreen:hover{
+    box-shadow: 0 0 10px var(--skatch_green);
+}
+
+.SkatchButtonGray:hover{
+    box-shadow: 0 0 10px var(--skatch_gray);
+}
+
+.SkatchTransparentRed{
+    border:2px solid var(--skatch_red);
+    color: var(--skatch_red);
+    background-color: transparent;
+    transition: background-color 1s;
+
+}
+
+.SkatchTransparentRed:hover{
+    border:2px solid var(--skatch_red);
+    color: var(--skatch_white);
+    background-color: var(--skatch_red);
+}
+
+.SkatchTransparentGreen{
+    border:2px solid var(--skatch_green);
+    color: var(--skatch_green);
+    background-color: transparent;
+    transition: background-color 1s;
+
+}
+
+.SkatchTransparentGreen:hover{
+    border:2px solid var(--skatch_green);
+    color: var(--skatch_white);
+    background-color: var(--skatch_green);
+}
+
+.SkatchTransparentBlue{
+    border:2px solid var(--skatch_blue);
+    color: var(--skatch_blue);
+    background-color: transparent;
+    transition: background-color 1s;
+
+}
+
+.SkatchTransparentBlue:hover{
+    border:2px solid var(--skatch_blue);
+    color: var(--skatch_white);
+    background-color: var(--skatch_blue);
+}
+
+.SkatchTransparentGray{
+    border:2px solid var(--skatch_gray);
+    color: var(--skatch_gray);
+    background-color: transparent;
+    transition: background-color 1s;
+
+}
+
+.SkatchTransparentGray:hover{
+    border:2px solid var(--skatch_gray);
+    color: var(--skatch_white);
+    background-color: var(--skatch_gray);
+}
+
+.SkatchButtonBlock{
+    display:block;
+    width:100%;
+}
+
+.SkatchAnimatedButton{
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease 0s;
+  border:none;
+}
+
+.SkatchAnimatedGreenButton:hover{
+    background-color: var(--caribbean_green);
+    box-shadow: 0px 15px 20px var(--caribbean_lightgreen);
+    color: var(--skatch_white);
+    transform: translateY(-7px);
+}
+
+.SkatchAnimatedRedButton:hover{
+    background-color: var(--skatch_red);
+    box-shadow: 0px 15px 20px var(--skatch_lightred);
+    color: var(--skatch_white);
+    transform: translateY(-7px);
+}
+
+.SkatchAnimatedBlueButton:hover{
+    background-color: var(--skatch_blue);
+    box-shadow: 0px 15px 20px var(--skatch_lightblue);
+    color: var(--skatch_white);
+    transform: translateY(-7px);
+}
+
+.SkatchAnimatedGrayButton:hover{
+    background-color: var(--skatch_gray);
+    box-shadow: 0px 15px 20px var(--skatch_lightgray);
+    color: var(--skatch_white);
+    transform: translateY(-7px);
+}
