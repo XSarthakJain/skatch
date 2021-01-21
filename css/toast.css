@@ -2,6 +2,7 @@
     --skatch_red:#DC3545;
     --skatch_green:#28A745;
     --skatch_yellow:#FFC107;
+    --skatch_lightyellow:#FFF3CD;
     --skatch_blue:#007BFF;
     --skatch_white:#ffffff;
     --skatch_gray:#6C757D;
@@ -10,4 +11,99 @@
     --caribbean_lightgreen:rgba(46, 229, 157, 0.4);
     --skatch_lightblue:#CCE5FF;
     --skatch_lightgray:#D6D8D9;
+    --skatch_black : #000000;
+    --skatch_lightgreen:#D4EDDA;
 }
+
+.SkatchNotification{
+    position:fixed;
+    visibility: hidden;
+    width:320px;   
+    padding:18px;
+    vertical-align: middle;
+    transition: all 1s ease 0s;
+    z-index:2;
+    left:5px;
+    bottom:0px;
+}
+
+
+
+.SkatchNotificationRed{
+  background-color: var(--skatch_lightred);
+  color:var(--skatch_red);
+  
+}
+
+.SkatchNotificationGreen{
+    background-color: var(--skatch_lightgreen);
+    color : var(--skatch_green);
+    /* border: 1px solid var(--skatch_green); */
+}
+
+.SkatchNotificationBlue{
+  background-color: var(--skatch_lightblue);
+  color : var(--skatch_blue);
+  /* border: 1px solid var(--skatch_blue); */
+}
+
+.SkatchNotificationYellow{
+  background-color: var(--skatch_lightyellow);
+  color : var(--skatch_yellow);
+  /* border: 1px solid var(--skatch_yellow); */
+}
+
+.SkatchNotificationGray{
+  background-color: var(--skatch_lightgray);
+  color : var(--skatch_gray);
+  /* border: 1px solid var(--skatch_gray); */
+}
+
+
+
+.SkatchNotificationMessage{
+    text-transform:none;
+    padding-left:16px;
+    line-height: 24px;
+    vertical-align: middle;
+    padding-top:6px;    
+}
+
+.SkatchNotificationIcon{
+    display: inline-flex;
+    vertical-align: top;
+}
+
+.SkatchNotification a{
+  float:right;
+  text-decoration: none;
+  color: var(--skatch_black);
+  font-size:16px;
+}
+
+.SkatchNotification.SkatchNotificatonAppear {
+    visibility: visible; 
+    -webkit-animation: Notificationfadein 1s, Notificationfadeout 1s 5s;
+    animation: Notificationfadein 1s, Notificationfadeout 1s 5s;
+  }
+  
+  
+  @-webkit-keyframes Notificationfadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 50px; opacity: 1;}
+  }
+  
+  @keyframes Notificationfadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 50px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes Notificationfadeout {
+    from {bottom: 50px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes Notificationfadeout {
+    from {bottom: 50px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }

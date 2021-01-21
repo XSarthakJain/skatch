@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skatch Alert</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="StyleSheet" href="../css/commonpage.css">
+    <link rel="StyleSheet" href="../css/toast.css">
+</head>
+<body>
+
+    <section class="outerWrapper">
+        <h1 class="componentTitle">Notification</h1>
+        <p class="componentDescription">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
+        <br>
+        <div>
+            <p class="componentSubTitle">Notification</p>
+            <div class="SkatchNotification SkatchNotificationRed" id="SkatchNotification">
+                <span><i class="material-icons SkatchNotificationIcon">error</i></span><span class="SkatchNotificationMessage">Error Message</span><a href="#">Action</a>
+            </div>
+            <button class="SkatchNotificationTriggre" notification-target="SkatchNotification">Click Me</button>
+
+            <div class="SkatchNotification SkatchNotificationGreen" id="SkatchNotification1">
+                <span><i class="material-icons SkatchNotificationIcon">check_circle</i></span><span class="SkatchNotificationMessage">Success Message</span><a href="#">Action</a>
+            </div>
+            <button class="SkatchNotificationTriggre" notification-target="SkatchNotification1">Click Me</button>
+
+            <div class="SkatchNotification SkatchNotificationBlue" id="SkatchNotification2">
+                <span><i class="material-icons SkatchNotificationIcon">info</i></span><span class="SkatchNotificationMessage">Info Message</span><a href="#">Action</a>
+            </div>
+            <button class="SkatchNotificationTriggre" notification-target="SkatchNotification2">Click Me</button>
+
+            <div class="SkatchNotification SkatchNotificationYellow" id="SkatchNotification3">
+                <span><i class="material-icons SkatchNotificationIcon">warning</i></span><span class="SkatchNotificationMessage">Warning Message</span><a href="#">Action</a>
+            </div>
+            <button class="SkatchNotificationTriggre" notification-target="SkatchNotification3">Click Me</button>
+
+            <div class="SkatchNotification SkatchNotificationGray" id="SkatchNotification4">
+                <span><i class="material-icons SkatchNotificationIcon">error</i></span><span class="SkatchNotificationMessage">Error Message</span><a href="#">Action</a>
+            </div>
+            <button class="SkatchNotificationTriggre" notification-target="SkatchNotification4">Click Me</button>
+            <br><br>
+            <xmp class="codeSnippets">
+                <div class="SkatchNotification SkatchNotificationRed" id="SkatchNotification">
+                    <span>
+                        <i class="material-icons SkatchNotificationIcon">
+                            error
+                        </i>
+                    </span>
+                    <span class="SkatchNotificationMessage">
+                        Error Message
+                    </span>
+                    <a href="#">
+                        Action
+                    </a>
+                </div>
+                <button class="SkatchNotificationTriggre" notification-target="SkatchNotification">
+                    Click Me
+                </button>
+    
+                <div class="SkatchNotification SkatchNotificationGreen" id="SkatchNotification1">
+                    <span>
+                        <i class="material-icons SkatchNotificationIcon">
+                            check_circle
+                        </i>
+                    </span>
+                    <span class="SkatchNotificationMessage">
+                        Success Message
+                    </span>
+                    <a href="#">
+                        Action
+                    </a>
+                </div>
+                <button class="SkatchNotificationTriggre" notification-target="SkatchNotification1">
+                    Click Me
+                </button>
+    
+                <div class="SkatchNotification SkatchNotificationBlue" id="SkatchNotification2">
+                    <span>
+                        <i class="material-icons SkatchNotificationIcon">
+                            info
+                        </i>
+                    </span>
+                    <span class="SkatchNotificationMessage">
+                        Info Message
+                    </span>
+                    <a href="#">
+                        Action
+                    </a>
+                </div>
+                <button class="SkatchNotificationTriggre" notification-target="SkatchNotification2">
+                    Click Me
+                </button>
+    
+                <div class="SkatchNotification SkatchNotificationYellow" id="SkatchNotification3">
+                    <span>
+                        <i class="material-icons SkatchNotificationIcon">
+                            warning
+                        </i>
+                    </span>
+                    <span class="SkatchNotificationMessage">
+                        Warning Message
+                    </span>
+                    <a href="#">
+                        Action
+                    </a>
+                </div>
+                <button class="SkatchNotificationTriggre" notification-target="SkatchNotification3">
+                    Click Me
+                </button>
+    
+                <div class="SkatchNotification SkatchNotificationGray" id="SkatchNotification4">
+                    <span>
+                        <i class="material-icons SkatchNotificationIcon">
+                            error
+                        </i>
+                    </span>
+                    <span class="SkatchNotificationMessage">
+                        Error Message
+                    </span>
+                    <a href="#">
+                        Action
+                    </a>
+                </div>
+                <button class="SkatchNotificationTriggre" notification-target="SkatchNotification4">
+                    Click Me
+                </button>
+            </xmp>
+        </div>
+    </section>
+</body>
+<script>
+    var SkatchNotificationTriggre = document.getElementsByClassName("SkatchNotificationTriggre");
+    for (var iter=0;iter < SkatchNotificationTriggre.length;iter++){
+        SkatchNotificationTriggre[iter].addEventListener("click",function(e){
+            var notification_target = this.getAttribute('notification-target');
+            document.getElementById(notification_target).classList.add("SkatchNotificatonAppear");
+            setTimeout(function(){
+                console.log("Triggre");
+                document.getElementById(notification_target).classList.remove("SkatchNotificatonAppear");
+            }, 5000);
+    });
+    }
+</script>
+</html>
