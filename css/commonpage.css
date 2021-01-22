@@ -35,6 +35,7 @@
     padding:2%;
     display:inline-block;
     border-radius: 2px;
+    width:80%;
     overflow-x: auto;
 }
 
