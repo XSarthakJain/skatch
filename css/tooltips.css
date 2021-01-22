@@ -16,19 +16,19 @@
     --skatch_tooltipblack:rgba(0,0,0,0.8);
 }
 
-[data-tooltip]{
+[skatch-tooltip]{
     position:relative;
     cursor:default;
 }
 
-[data-tooltip]::after{
+[skatch-tooltip]::after{
     position:absolute;
     width:140px;
     left:calc(50% -70px);
     bottom: 125%;
     text-align: center;
     box-sizing: border-box;
-    content: attr(data-tooltip);
+    content: attr(skatch-tooltip);
     color: var(--skatch_white);
     background-color: var(--skatch_tooltipblack);
     padding:8px;
@@ -42,7 +42,7 @@
 
 }
 
-[data-tooltip]:hover::after{
+[skatch-tooltip]:hover::after{
     opacity: 1;
     visibility: visible;
     transform :translateY(0);
