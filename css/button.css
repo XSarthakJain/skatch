@@ -146,33 +146,47 @@
   border:none;
 }
 
-.SkatchAnimatedGreenButton:hover{
+.SkatchAnimatedGreenButton{
     background-color: var(--caribbean_green);
-    box-shadow: 0px 15px 20px var(--caribbean_lightgreen);
     color: var(--skatch_white);
+}
+
+.SkatchAnimatedGreenButton:hover{
+    box-shadow: 0px 15px 20px var(--caribbean_lightgreen);
     transform: translateY(-7px);
 }
+
+.SkatchAnimatedYellowButton{
+    background-color: var(--skatch_yellow);
+    color: var(--skatch_white);
+}
+.SkatchAnimatedYellowButton:hover{
+    box-shadow: 0px 15px 20px var(--skatch_lightyellow);
+    transform: translateY(-7px);
+}
+
+
 .SkatchAnimatedRedButton{
     background-color: var(--skatch_red);
     color: var(--skatch_white);
 }
 .SkatchAnimatedRedButton:hover{
-    background-color: var(--skatch_red);
     box-shadow: 0px 15px 20px var(--skatch_lightred);
-    color: var(--skatch_white);
     transform: translateY(-7px);
 }
-
-.SkatchAnimatedBlueButton:hover{
+.SkatchAnimatedBlueButton{
     background-color: var(--skatch_blue);
-    box-shadow: 0px 15px 20px var(--skatch_lightblue);
     color: var(--skatch_white);
+}
+.SkatchAnimatedBlueButton:hover{
+    box-shadow: 0px 15px 20px var(--skatch_lightblue);
     transform: translateY(-7px);
 }
-
-.SkatchAnimatedGrayButton:hover{
+.SkatchAnimatedGrayButton{
     background-color: var(--skatch_gray);
-    box-shadow: 0px 15px 20px var(--skatch_lightgray);
     color: var(--skatch_white);
+}
+.SkatchAnimatedGrayButton:hover{
+    box-shadow: 0px 15px 20px var(--skatch_lightgray);
     transform: translateY(-7px);
 }
