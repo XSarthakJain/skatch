@@ -81,7 +81,7 @@
   font-size:16px;
 }
 
-.SkatchNotification.SkatchNotificatonAppear {
+.SkatchNotification.SkatchNotificatonAppear,.SkatchNotification2.SkatchNotificatonAppear {
     visibility: visible; 
     -webkit-animation: Notificationfadein 1s, Notificationfadeout 1s 5s;
     animation: Notificationfadein 1s, Notificationfadeout 1s 5s;
@@ -106,4 +106,83 @@
   @keyframes Notificationfadeout {
     from {bottom: 50px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
+  }
+
+  /* Notification 2 */
+  .SkatchNotification2{
+    background-color: var(--skatch_white);
+    display:inline-block;
+    color: var(--skatch_gray);
+    border-radius: 5px;
+    width:auto;
+    box-shadow: 0px 0px 2px 2px var(--skatch_lightgray);
+    visibility: hidden;
+    position:fixed;
+    bottom: 5px;
+    left:5px;
+    z-index: 2;
+  }
+
+  .SkatchNotification2 span{
+    float:left;
+  }
+  
+  .SkatchNotification2Red i{
+    background-color:  var(--skatch_red);
+    width:100%;
+    padding:8px;
+    color: var(--skatch_white);
+    text-align: center;
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  .SkatchNotification2Green span i{
+    background-color: var(--skatch_green);
+    width:100%;
+    padding:8px;
+    color: var(--skatch_white);
+    text-align: center;
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  .SkatchNotification2Blue i{
+    background-color:  var(--skatch_blue);
+    width:100%;
+    padding:8px;
+    color: var(--skatch_white);
+    text-align: center;
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  .SkatchNotification2Yellow i{
+    background-color:  var(--skatch_yellow);
+    width:100%;
+    padding:8px;
+    color: var(--skatch_white);
+    text-align: center;
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  .SkatchNotification2Gray i{
+    background-color:  var(--skatch_gray);
+    width:100%;
+    padding:8px;
+    color: var(--skatch_white);
+    text-align: center;
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  .SkatchNotification2Content p{
+    display: inline-block;
+    padding:10px;
+    padding-left:25px;
+    text-align: center;
+  }
+
+  .SkatchNotification2 span a{
+    display: inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: var(--skatch_gray);
+    font-weight: bold;
   }
