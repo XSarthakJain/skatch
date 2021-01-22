@@ -1,0 +1,49 @@
+:root{
+    --skatch_red:#DC3545;
+    --skatch_green:#28A745;
+    --skatch_yellow:#FFC107;
+    --skatch_lightyellow:#FFF3CD;
+    --skatch_blue:#007BFF;
+    --skatch_white:#ffffff;
+    --skatch_gray:#6C757D;
+    --skatch_lightred:#F8D7DA;
+    --caribbean_green:#2EE59D;
+    --caribbean_lightgreen:rgba(46, 229, 157, 0.4);
+    --skatch_lightblue:#CCE5FF;
+    --skatch_lightgray:#D6D8D9;
+    --skatch_black : #000000;
+    --skatch_lightgreen:#D4EDDA;
+    --skatch_tooltipblack:rgba(0,0,0,0.8);
+}
+
+[data-tooltip]{
+    position:relative;
+    cursor:default;
+}
+
+[data-tooltip]::after{
+    position:absolute;
+    width:140px;
+    left:calc(50% -70px);
+    bottom: 125%;
+    text-align: center;
+    box-sizing: border-box;
+    content: attr(data-tooltip);
+    color: var(--skatch_white);
+    background-color: var(--skatch_tooltipblack);
+    padding:8px;
+    border-radius: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s,transform 0.2s;
+
+}
+
+[data-tooltip]:hover::after{
+    opacity: 1;
+    visibility: visible;
+    transform :translateY(0);
+}
