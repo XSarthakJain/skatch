@@ -1,0 +1,67 @@
+:root{
+    --skatch_red:#DC3545;
+    --skatch_green:#28A745;
+    --skatch_yellow:#FFC107;
+    --skatch_lightyellow:#FFF3CD;
+    --skatch_blue:#007BFF;
+    --skatch_white:#ffffff;
+    --skatch_gray:#6C757D;
+    --skatch_lightred:#F8D7DA;
+    --caribbean_green:#2EE59D;
+    --caribbean_lightgreen:rgba(46, 229, 157, 0.4);
+    --skatch_lightblue:#CCE5FF;
+    --skatch_lightgray:#D6D8D9;
+    --skatch_black : #000000;
+    --skatch_lightgreen:#D4EDDA;
+    --skatch_tooltipblack:rgba(0,0,0,0.8);
+    --skatch_formborder:#E9ECEF;
+}
+.SkatchForm{
+    width:80%;
+    outline:none;
+    padding:12px 0 12px 16px;
+    border:2px solid var(--skatch_formborder);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: var(--skatch_gray);
+    transition: box-shadow 0.5s;
+}
+
+.SkatchForm:focus{
+    box-shadow: 0 0 8px 0 var(--skatch_blue);
+}
+
+.SkatchInputTextIcon .SkatchForm,.SkatchInputTextIcon .SkatchForm{
+    padding-left: 40px;
+}
+
+.SkatchInputTextIcon{
+    position: relative;
+}
+
+.SkatchInputTextIcon i{
+    position:absolute;
+    left:0;
+    padding:9px 8px;
+    color: var(--skatch_gray);
+    transition: 1s;
+}
+
+.SkatchInputTextIcon .SkatchForm:focus+i,.SkatchInputTextIcon .SkatchForm:focus+i{
+    color: var(--skatch_blue);
+}
+ 
+/* Second type SkatchInputTextIconBg */
+.SkatchInputTextIcon.SkatchInputTextIconBg i{
+    background-color: var(--skatch_gray);
+    background-size: cover;
+    color: var(--skatch_white);
+    padding:9.5px 6px;
+    border-radius: 4px 0 0 4px;
+}
+
+.SkatchInputTextIcon.SkatchInputTextIconBg .SkatchForm:focus+i,.SkatchInputTextIcon.SkatchInputTextIconBg .SkatchForm:focus+i{
+    color: var(--skatch_white);
+    background-color: var(--skatch_blue);
+}
+
