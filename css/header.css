@@ -139,6 +139,8 @@ nav #HeaderMenuicon{
     top:0;
     left:0;
     width:100%;
+    box-shadow: 0 5px 8px  var(--skatch_gray);
+    z-index: 999999;
 }
 
 #LeftHeaderMenuicon i{

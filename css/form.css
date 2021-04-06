@@ -65,3 +65,13 @@
     background-color: var(--skatch_blue);
 }
 
+.SkatchFile{
+    display: inline-block;
+}
+
+.SkatchFileChooserText{
+    background-color: var(--skatch_formborder);
+    color: var(--skatch_gray);
+    border-radius: 25px;
+    padding:5px;
+}

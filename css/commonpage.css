@@ -42,3 +42,21 @@
 img{
     width:80%;
 }
+
+.mainContent{
+    background-color: var(--skatch_gray);
+    width:100%;
+    height:100vh;
+}
+
+.mainContent div{
+    justify-content: center;
+    text-align: center;
+    margin:20% auto;
+    color: var(--skatch_white);
+}
+
+.mainContent div a{
+    text-decoration: none;
+    color: var(--skatch_white);
+}

@@ -22,10 +22,13 @@
 }
 
 [skatch-tooltip]::after{
+    font-size: 16px;
+    letter-spacing: 0px;
     position:absolute;
     width:140px;
-    left:calc(50% -70px);
-    bottom: 125%;
+    left:calc(50% -100px);
+    top: 80%;
+    height:fit-content;
     text-align: center;
     box-sizing: border-box;
     content: attr(skatch-tooltip);
@@ -39,7 +42,10 @@
     opacity: 0;
     transform: translateY(10px);
     transition: opacity 0.3s,transform 0.2s;
-
+    letter-spacing: 1px;
+    white-space: nowrap;
+    font-weight: normal;
+    font-style: normal;
 }
 
 [skatch-tooltip]:hover::after{
