@@ -141,6 +141,7 @@ nav #HeaderMenuicon{
     width:100%;
     box-shadow: 0 5px 8px  var(--skatch_gray);
     z-index: 999999;
+    
 }
 
 #LeftHeaderMenuicon i{
@@ -191,6 +192,14 @@ nav #HeaderMenuicon{
     border-top:1px solid var(--skatch_headerdark);
 }
 
+.SkatchLight + .leftHeaderMenuOptions ul:last-child{
+    margin-bottom: 80px;
+}
+
+.SkatchDark + .leftHeaderMenuOptions ul:last-child{
+    margin-bottom: 80px;
+}
+
 .SkatchLight + .leftHeaderMenuOptions ul li:hover,.SkatchLight + .leftHeaderMenuOptions ul li a:hover{
     background-color: var(--skatch_headerdark);
     color:var(--skatch_white);
@@ -206,7 +215,6 @@ nav #HeaderMenuicon{
     transition: width 1.5s;
     transition-timing-function: ease-in-out;
     overflow-x: hidden;
-    
 }
 
 .leftHeaderMenuOptions ul li a{
