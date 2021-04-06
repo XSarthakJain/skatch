@@ -46,6 +46,7 @@ label.Headerlogo{
     font-weight: bold;
     padding: 0 100px;
     line-height:80px;
+    text-decoration: none;
 }
 
 nav ul{
