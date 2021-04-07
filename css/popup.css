@@ -45,7 +45,6 @@
     background:var(--skatch_lightgray);
     border-radius:10px;
     box-sizing:border-box;
-    z-index:2;
     text-align:center;
     opacity:0;
     top:-200%;
@@ -61,7 +60,7 @@
                 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
                 0 100px 80px rgba(0, 0, 0, 0.12)
               ;
-              
+    z-index: 99999999;
   }
   .Skatchpopup.SkatchPopupactive {
     opacity:1;
@@ -94,7 +93,7 @@
     padding:5px;
   }
   .Skatchpopup .SkatchPopupdismiss-btn {
-    margin-top:;
+    
   }
   .Skatchpopup .SkatchPopupdismiss-btn button {
     padding:10px 20px;
@@ -155,6 +154,7 @@
       .Skatchpopup{
           width:100%;
           height:100vh;
+          border-radius:0px;
       }
   }
   

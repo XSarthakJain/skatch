@@ -11,6 +11,12 @@
     <link rel="StyleSheet" href="css/commonpage.css">
     <link rel="StyleSheet" href="css/header.css">
     <link rel="StyleSheet" href="css/tooltips.css">
+    <style>
+        body{
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+    </style>
 </head>
 <body>
     <!-- Start Header -->
@@ -18,7 +24,7 @@
         <label id="LeftHeaderMenuicon">
             <i class="material-icons">menu</i>
         </label>
-        <label class="Headerlogo" skatch-tooltip="Skatch"><a href="/skatch.github.io">Skatch</a></label>
+        <label class="Headerlogo" skatch-tooltip="Skatch"><a href="skatch.github.io">Skatch</a></label>
     </header>
         <div class="leftHeaderMenuOptions">
             <ul>
@@ -36,14 +42,15 @@
             </ul>
         </div>
     <!-- End Header -->
-    <div class="mainContent"><br><br>
+    <div id="particles-js"><br><br>
         <div>
-            <h2>Build beautiful website, quickly</h2><br>
+            <h2>Build beautiful website , quickly</h2><br>
             <p>Skatch is a Open Source Project where you can get multiple components of site.</p><br>
-            <button class="SkatchBtn SkatchTransparentRed" skatch-tooltip="Get Started"><a href="html/gettingstarted.html">Get Started</a></button>
+            <button class="SkatchBtn SkatchTransparentWhite"><a href="html/gettingstarted.html">Get Started</a></button>
         </div>
     </div>
 </body>
 <script src="dist/js/skatch.min.js"></script>
-
+<script src="particles.js"></script>"
+<script src="app.js"></script>"
 </html>

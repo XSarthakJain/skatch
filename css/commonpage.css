@@ -11,9 +11,8 @@
 
 /* Temp */
 .outerWrapper{
-	margin:5%;
 	width: 90%;
-    
+    margin: 5% auto;
 }
 /* Temp */
 
@@ -31,10 +30,11 @@
 }
 .codeSnippets{
     background-color: var(--skatch_SnippetsBg);
-    padding:2%;
+    padding:12px;
     display:inline-block;
     border-radius: 2px;
-    width:80%;
+    max-width:90%;
+    min-width:auto;
     overflow-x: auto;
 }
 
@@ -42,21 +42,48 @@ img{
     width:80%;
 }
 
-.mainContent{
-    background-color: var(--skatch_gray);
-    width:100%;
-    height:100vh;
+
+#particles-js{
+    background: #262626;
+    height: 100vh;
 }
 
-.mainContent div{
-    justify-content: center;
+#particles-js div{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     text-align: center;
-    margin:20% auto;
     color: var(--skatch_white);
 }
 
-.mainContent div a{
+#particles-js div h2{
+    letter-spacing: 1px;
+    font-size:40px;
+    text-transform: capitalize;
+}
+
+#particles-js div p{
+    letter-spacing: 0.5px;
+    font-size: large;
+}
+
+#particles-js div a{
     text-decoration: none;
     color: var(--skatch_white);
     display: block;
 }
+
+.SkatchTransparentWhite{
+    background-color: transparent;
+    border:1px solid #ffffff;
+}
+
