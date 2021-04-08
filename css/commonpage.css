@@ -87,3 +87,9 @@ img{
     border:1px solid #ffffff;
 }
 
+.SkatchGithubRepo a{
+    background-color: var(--skatch_headerdark)!important;
+}
+.SkatchGithubRepo:hover .fa{
+    color:#4078c0;
+}
