@@ -21,7 +21,7 @@ function App(){
         <React.Fragment>
             <Header/>
             <Switch>
-            <Route exact path="/" component={Home}/>
+            <Route exact path="/skatch" component={Home}/>
             <Route exact path="/gettingstarted" component={Gettingstarted}/>
             <Route exact path="/alert" component={Alert}/>
             <Route exact path="/badge" component={Badge}/>
