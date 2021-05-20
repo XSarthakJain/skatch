@@ -23,7 +23,7 @@ function Header(){
                         <NavLink exact to="card"><li><a>Card</a></li></NavLink>
                         <NavLink exact to="footer"><li><a>Footer</a></li></NavLink>
                         <NavLink exact to="navbar"><li><a>Header</a></li></NavLink>
-                        <li><a>PopUp</a></li>
+                        <NavLink exact to="popup"><li><a>PopUp</a></li></NavLink>
                         <li><a>Toast</a></li>
                         <li><a>Tooltips</a></li>
                         <li><a>Form</a></li>

@@ -9,6 +9,8 @@ import Button from './Button';
 import Card from './Card';
 import Footer from './Footer';
 import NavBar from './NavBar';
+import Popup from './Popup';
+import Toast from './Toast';
 
 function App(){
     return (
@@ -23,6 +25,9 @@ function App(){
             <Route exact path="/card" component={Card}/>
             <Route exact path="/footer" component={Footer}/>
             <Route exact path="/navbar" component={NavBar}/>
+            <Route exact path="/popup" component={Popup}/>
+            <Route exact path="/toast" component={Toast}/>
+
             </Switch>
         </React.Fragment>
     );
