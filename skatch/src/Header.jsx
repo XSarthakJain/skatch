@@ -19,8 +19,6 @@ function Header(){
 
                 <NavLink exact to="/skatch"><label className="Headerlogo" skatch-tooltip="Skatch"><a href="javascript:void(0)">Skatch</a></label></NavLink>
 
-                <NavLink exact to="/"><label className="Headerlogo" skatch-tooltip="Skatch"><a href="javascript:void(0)">Skatch</a></label></NavLink>
-
             </header>
                 <div className="leftHeaderMenuOptions">
                     <ul>
