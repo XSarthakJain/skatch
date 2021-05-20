@@ -7,6 +7,8 @@ import Alert from './Alert';
 import Badge from './Badge';
 import Button from './Button';
 import Card from './Card';
+import Footer from './Footer';
+import NavBar from './NavBar';
 
 function App(){
     return (
@@ -19,6 +21,8 @@ function App(){
             <Route exact path="/badge" component={Badge}/>
             <Route exact path="/button" component={Button}/>
             <Route exact path="/card" component={Card}/>
+            <Route exact path="/footer" component={Footer}/>
+            <Route exact path="/navbar" component={NavBar}/>
             </Switch>
         </React.Fragment>
     );

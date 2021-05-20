@@ -21,8 +21,8 @@ function Header(){
                         <NavLink exact to="badge"><li><a >Badge</a></li></NavLink>
                         <NavLink exact to="button"><li><a >Button</a></li></NavLink>
                         <NavLink exact to="card"><li><a>Card</a></li></NavLink>
-                        <li><a>Footer</a></li>
-                        <li><a>Header</a></li>
+                        <NavLink exact to="footer"><li><a>Footer</a></li></NavLink>
+                        <NavLink exact to="navbar"><li><a>Header</a></li></NavLink>
                         <li><a>PopUp</a></li>
                         <li><a>Toast</a></li>
                         <li><a>Tooltips</a></li>

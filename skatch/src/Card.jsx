@@ -1,5 +1,9 @@
 import React from 'react';
 import './css/commonpage.css';
+import card1 from './images/card1.jpeg';
+import card2 from './images/card2.jpg';
+import card3 from './images/card3.jpg';
+import card4 from './images/card4.jpg';
 
 function Card(){
     return (
@@ -16,7 +20,7 @@ function Card(){
             <div class="SkatchOuterCard">
             <div class="Skatchcard">
                 <div class="Skatchcard-image">
-                    <img src="../images/card1.jpeg" class="Skatchcard-image"/>
+                    <img src={card1} class="Skatchcard-image"/>
                 </div>
                 <div class="Skatchcard-text">
                     <span class="Skatchcarddate">4 days left</span>
@@ -32,7 +36,7 @@ function Card(){
             <div class="SkatchOuterCard">
             <div class="Skatchcard">
                 <div class="Skatchcard-image">
-                    <img src="../images/card2.jpg" class="Skatchcard-image"/>
+                    <img src={card2} class="Skatchcard-image"/>
                 </div>
                 <div class="Skatchcard-text">
                     <span class="Skatchcarddate">4 days 5 nights</span>
@@ -48,7 +52,7 @@ function Card(){
             <div class="SkatchOuterCard">
                 <div class="Skatchcard">
                     <div class="Skatchcard-image">
-                        <img src="../images/card3.jpg" class="Skatchcard-image"/>
+                        <img src={card3} class="Skatchcard-image"/>
                     </div>
                     <div class="Skatchcard-text">
                         <span class="Skatchcarddate">5 piece</span>
@@ -64,7 +68,7 @@ function Card(){
             <div class="SkatchOuterCard">
                 <div class="Skatchcard">
                     <div class="Skatchcard-image">
-                        <img src="../images/card4.jpg" class="Skatchcard-image"/>
+                        <img src={card4} class="Skatchcard-image"/>
                     </div>
                     <div class="Skatchcard-text">
                         <span class="Skatchcarddate">4 days 5 nights</span>
