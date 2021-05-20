@@ -13,6 +13,8 @@ import Popup from './Popup';
 import Toast from './Toast';
 import Tooltip from './Tooltip';
 import Form from './Form';
+import Error from './Error';
+import Commingsoon from './Commingsoon';
 
 function App(){
     return (
@@ -31,7 +33,8 @@ function App(){
             <Route exact path="/toast" component={Toast}/>
             <Route exact path="/tooltip" component={Tooltip}/>
             <Route exact path="/form" component={Form}/>
-
+            <Route exact path="/commingsoon" component={Commingsoon}/>
+            <Route  component={Error}/>
             </Switch>
         </React.Fragment>
     );

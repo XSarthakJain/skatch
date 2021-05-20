@@ -103,3 +103,11 @@ pre{
     margin:2% !important;
  }
  
+ a{
+     text-decoration: none !important;
+ }
+
+ body{
+    overflow-y: auto !important;
+    padding:0;
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    margin:0;
+}
+.timeBlock{
+    margin:0;
+    max-width:15%;
+    /* background-color: black; */
+    color:#474463;
+    text-align: center;
+}
+
+.timeBlock span:first-child{
+    font-size: medium;
+    color:#6c63ff;
+    letter-spacing: 2px;
+    
+}
+.title{
+    margin-top:2%;
+    color:#000000;
+    font-weight: bold;
+}
+
+.title span{
+    margin:2% auto;
+    font-size: xx-large;
+    color:gray;
+    font-weight: 100;
+ }
+
+ .brandName{
+     text-align: center;
+     font-size:large;
+     font-weight: bolder;
+     margin-top:2%;
+     color:gray;
+ }
+
+
+
+ .calander{
+     max-width:80%;
+     display: block;
+     margin:0 auto;
+     
+ }

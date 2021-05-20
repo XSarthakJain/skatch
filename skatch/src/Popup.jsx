@@ -1,6 +1,5 @@
 import React from 'react';
 import './css/commonpage.css';
-
 function Popup(){
     return (
         <React.Fragment>

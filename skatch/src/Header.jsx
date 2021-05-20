@@ -4,11 +4,16 @@ import { NavLink } from 'react-router-dom';
 // import './js/Header.js';
 
 function Header(){
+    function sideMenuAppear(){
+        setInterval(() => {
+            document.getElementById("LeftHeaderMenuicon").click();
+        }, 4000);
+    }
     return(
         <React.Fragment>
             {/* <!-- Start Header --> */}
             <header className="SkatchDark leftHeader">
-                <label id="LeftHeaderMenuicon">
+                <label id="LeftHeaderMenuicon" onClick={sideMenuAppear}>
                     <i className="material-icons">menu</i>
                 </label>
                 <NavLink exact to="/"><label className="Headerlogo" skatch-tooltip="Skatch"><a href="javascript:void(0)">Skatch</a></label></NavLink>
