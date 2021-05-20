@@ -22,18 +22,18 @@ function App(){
             <Header/>
             <Switch>
             <Route exact path="/skatch" component={Home}/>
-            <Route exact path="/gettingstarted" component={Gettingstarted}/>
-            <Route exact path="/alert" component={Alert}/>
-            <Route exact path="/badge" component={Badge}/>
-            <Route exact path="/button" component={Button}/>
-            <Route exact path="/card" component={Card}/>
-            <Route exact path="/footer" component={Footer}/>
-            <Route exact path="/navbar" component={NavBar}/>
-            <Route exact path="/popup" component={Popup}/>
-            <Route exact path="/toast" component={Toast}/>
-            <Route exact path="/tooltip" component={Tooltip}/>
-            <Route exact path="/form" component={Form}/>
-            <Route exact path="/commingsoon" component={Commingsoon}/>
+            <Route exact path="/skatch/gettingstarted" component={Gettingstarted}/>
+            <Route exact path="/skatch/alert" component={Alert}/>
+            <Route exact path="/skatch/badge" component={Badge}/>
+            <Route exact path="/skatch/button" component={Button}/>
+            <Route exact path="/skatch/card" component={Card}/>
+            <Route exact path="/skatch/footer" component={Footer}/>
+            <Route exact path="/skatch/navbar" component={NavBar}/>
+            <Route exact path="/skatch/popup" component={Popup}/>
+            <Route exact path="/skatch/toast" component={Toast}/>
+            <Route exact path="/skatch/tooltip" component={Tooltip}/>
+            <Route exact path="/skatch/form" component={Form}/>
+            <Route exact path="/skatch/commingsoon" component={Commingsoon}/>
             <Route  component={Error}/>
             </Switch>
         </React.Fragment>
