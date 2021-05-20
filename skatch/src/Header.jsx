@@ -21,17 +21,17 @@ function Header(){
                 <div className="leftHeaderMenuOptions">
                     <ul>
                         <li className="SkatchGithubRepo"><a href="https://github.com/XSarthakJain/skatch.github.io" ><i className="fa fa-github"></i></a></li>
-                        <NavLink exact to="skatch/gettingstarted"><li><a >Getting Started</a></li></NavLink>
-                        <NavLink exact to="skatch/alert"><li><a >Alert</a></li></NavLink>
-                        <NavLink exact to="skatch/badge"><li><a >Badge</a></li></NavLink>
-                        <NavLink exact to="skatch/button"><li><a >Button</a></li></NavLink>
-                        <NavLink exact to="skatch/card"><li><a>Card</a></li></NavLink>
-                        <NavLink exact to="skatch/footer"><li><a>Footer</a></li></NavLink>
-                        <NavLink exact to="skatch/navbar"><li><a>Header</a></li></NavLink>
-                        <NavLink exact to="skatch/popup"><li><a>PopUp</a></li></NavLink>
-                        <NavLink exact to="skatch/toast"><li><a>Toast</a></li></NavLink>
-                        <NavLink exact to="skatch/tooltip"><li><a>Tooltips</a></li></NavLink>
-                        <NavLink exact to="skatch/form"><li><a>Form</a></li></NavLink>
+                        <NavLink exact to="gettingstarted"><li><a >Getting Started</a></li></NavLink>
+                        <NavLink exact to="alert"><li><a >Alert</a></li></NavLink>
+                        <NavLink exact to="badge"><li><a >Badge</a></li></NavLink>
+                        <NavLink exact to="button"><li><a >Button</a></li></NavLink>
+                        <NavLink exact to="card"><li><a>Card</a></li></NavLink>
+                        <NavLink exact to="footer"><li><a>Footer</a></li></NavLink>
+                        <NavLink exact to="navbar"><li><a>Header</a></li></NavLink>
+                        <NavLink exact to="popup"><li><a>PopUp</a></li></NavLink>
+                        <NavLink exact to="toast"><li><a>Toast</a></li></NavLink>
+                        <NavLink exact to="tooltip"><li><a>Tooltips</a></li></NavLink>
+                        <NavLink exact to="form"><li><a>Form</a></li></NavLink>
                     </ul>
                 </div>
             {/* <!-- End Header --> */}
