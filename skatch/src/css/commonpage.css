@@ -1,0 +1,105 @@
+:root{
+    --skatch_gray : gray;
+    --skatch_black : black;
+    --skatch_SnippetsBg:#F8F9FA;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Temp */
+.outerWrapper{
+	width: 90%;
+    margin: 5% auto;
+}
+/* Temp */
+
+.componentTitle{
+    font-size: xx-large;
+    font-weight:bolder;
+    color:var(--skatch_black);
+}
+
+.componentDescription{
+    font-size:large;
+}
+.componentSubTitle{
+    font-size: x-large;
+}
+.codeSnippets{
+    background-color: var(--skatch_SnippetsBg);
+    padding:12px;
+    display:inline-block;
+    border-radius: 2px;
+    max-width:90%;
+    min-width:auto;
+    overflow-x: auto;
+    margin-left:2%;
+}
+
+img{
+    width:80%;
+}
+
+
+#particles-js{
+    background: #262626;
+    height: 100vh;
+}
+
+#particles-js div{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: var(--skatch_white);
+}
+
+#particles-js div h2{
+    letter-spacing: 1px;
+    font-size:40px;
+    text-transform: capitalize;
+}
+
+#particles-js div p{
+    letter-spacing: 0.5px;
+    font-size: large;
+}
+
+#particles-js div a{
+    text-decoration: none;
+    color: var(--skatch_white);
+    display: block;
+}
+
+.SkatchTransparentWhite{
+    background-color: transparent;
+    border:1px solid #ffffff;
+}
+
+.SkatchGithubRepo a{
+    background-color: var(--skatch_headerdark)!important;
+}
+.SkatchGithubRepo:hover .fa{
+    color:#4078c0;
+}
+pre{
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    margin:2% !important;
+ }
+ 
