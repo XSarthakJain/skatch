@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/skatch/static/css/main.cdb004e8.chunk.css",
+    "main.js": "/skatch/static/js/main.bbb9bb98.chunk.js",
+    "main.js.map": "/skatch/static/js/main.bbb9bb98.chunk.js.map",
+    "runtime-main.js": "/skatch/static/js/runtime-main.dc000f89.js",
+    "runtime-main.js.map": "/skatch/static/js/runtime-main.dc000f89.js.map",
+    "static/js/2.d37d8a13.chunk.js": "/skatch/static/js/2.d37d8a13.chunk.js",
+    "static/js/2.d37d8a13.chunk.js.map": "/skatch/static/js/2.d37d8a13.chunk.js.map",
+    "index.html": "/skatch/index.html",
+    "static/css/main.cdb004e8.chunk.css.map": "/skatch/static/css/main.cdb004e8.chunk.css.map",
+    "static/js/2.d37d8a13.chunk.js.LICENSE.txt": "/skatch/static/js/2.d37d8a13.chunk.js.LICENSE.txt",
+    "static/media/Commingsoon.df3be1a6.svg": "/skatch/static/media/Commingsoon.df3be1a6.svg",
+    "static/media/DarkleftSideHeader.23aab53e.png": "/skatch/static/media/DarkleftSideHeader.23aab53e.png",
+    "static/media/LightleftSideHeader.1a3a7ecc.png": "/skatch/static/media/LightleftSideHeader.1a3a7ecc.png",
+    "static/media/Pagenotfound.4861ae77.svg": "/skatch/static/media/Pagenotfound.4861ae77.svg",
+    "static/media/card1.6f251a79.jpeg": "/skatch/static/media/card1.6f251a79.jpeg",
+    "static/media/card2.aae73ef1.jpg": "/skatch/static/media/card2.aae73ef1.jpg",
+    "static/media/card3.19ffd854.jpg": "/skatch/static/media/card3.19ffd854.jpg",
+    "static/media/card4.b7d02447.jpg": "/skatch/static/media/card4.b7d02447.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc000f89.js",
+    "static/js/2.d37d8a13.chunk.js",
+    "static/css/main.cdb004e8.chunk.css",
+    "static/js/main.bbb9bb98.chunk.js"
+  ]
+}
