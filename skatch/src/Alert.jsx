@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/commonpage.css';
-
+import './js/alert';
 
 function Alert(){
     return(
