@@ -11,6 +11,8 @@ import Footer from './Footer';
 import NavBar from './NavBar';
 import Popup from './Popup';
 import Toast from './Toast';
+import Tooltip from './Tooltip';
+import Form from './Form';
 
 function App(){
     return (
@@ -27,6 +29,8 @@ function App(){
             <Route exact path="/navbar" component={NavBar}/>
             <Route exact path="/popup" component={Popup}/>
             <Route exact path="/toast" component={Toast}/>
+            <Route exact path="/tooltip" component={Tooltip}/>
+            <Route exact path="/form" component={Form}/>
 
             </Switch>
         </React.Fragment>

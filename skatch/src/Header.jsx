@@ -25,8 +25,8 @@ function Header(){
                         <NavLink exact to="navbar"><li><a>Header</a></li></NavLink>
                         <NavLink exact to="popup"><li><a>PopUp</a></li></NavLink>
                         <NavLink exact to="toast"><li><a>Toast</a></li></NavLink>
-                        <li><a>Tooltips</a></li>
-                        <li><a>Form</a></li>
+                        <NavLink exact to="tooltip"><li><a>Tooltips</a></li></NavLink>
+                        <NavLink exact to="form"><li><a>Form</a></li></NavLink>
                     </ul>
                 </div>
             {/* <!-- End Header --> */}
